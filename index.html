@@ -8,6 +8,10 @@
     <!-- STYLES -->
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+
+    <!-- BG video -->
+    <link rel="stylesheet" type="text/css" href="./js/jquery.background-video.js">
 
 
     <!-- FONTS -->
@@ -20,7 +24,7 @@
 
     <nav>
         <ul>
-            <li><a href="#">HOME</a></li>
+            <li><a href="./index.html">HOME</a></li>
             <li><a href="#">BODIES</a></li>
             <li><a href="./simulation.html">SIMULATOR</a></li>
         </ul>
@@ -30,6 +34,13 @@
     <div id="home-page">
 
         <div class="hero-container">
+
+            <div class="element-with-video-bg jquery-background-video-wrapper">
+                <video class="my-background-video jquery-background-video" loop autoplay muted playsinline">
+                    <source src="./assets/videos/waves.mp4" type="video/mp4">
+                </video>
+            </div>
+
             <div class="hero-overlay">
                 <div class="side-bar">
                     <h1>theBLUE</h1>
@@ -54,24 +65,38 @@
             </div>
         </div>
 
-        <div class="sea-shore">
-            <img src="" alt="">
+        <div class="sea-shore-parallax">
         </div>
 
         <div class="about">
             <div class="about-img">
-                <img src="./assets/imgs/this.jpeg" alt="">
             </div>
             <p>Hipster ipsum tattooed brunch I'm baby. Tbh trust bicycle chicharrones put hot chic park a. Cray twee keytar mood narwhal sartorial. Butcher polaroid fund sriracha baby. Praxis jianbing cloud ipsum tousled bruh. Fit poke pabst brooklyn portland vaporware chicharrones beard kitsch beer. Chicken vexillologist vibecession hipster air. Banh gochujang bitters blog sustainable stumptown flexitarian. Master poke quinoa chia williamsburg typewriter. Bottle deep subway adaptogen occupy microdosing chartreuse. Dsa mumblecore polaroid austin keytar shoreditch snackwave. Artisan yolo iceland twee coloring. Unicorn flannel authentic forage mixtape plant taiyaki health selfies.Food LaCroix kickstarter it hammock yuccie. Squid cardigan out raclette retro blue toast adaptogen vinegar trust. Chartreuse beard next raw mood pbr&b you scenester jean. Retro whatever mug viral retro synth keffiyeh ethical iPhone chartreuse. Cred trade pop-up blue mi. You bottle lo-fi listicle selfies keffiyeh. Selvage biodiesel chic 8-bit yes food bitters chicharrones.</p>
         </div>
 
         <div class="arrow-container">   
-            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" data-name="Layer 2" viewBox="0 0 2000.87 735.46">
-                <g id="arrow" data-name="arrow">
-                  <path d="M1890.67 4.72c17.53 10.52 108.74 67.7 93.3 163.5-2.69 16.71-17.78 110.33-138.63 164.75-124.67 56.14-323.56 53.31-361.54-11.29-25.72-43.76 25.08-111.25 101.12-144.68 115.43-50.75 252.86-7.11 312.87 25.49 7.24 3.93 133.39 74.72 87.59 159.82-48.71 90.5-257.91 134.04-376.51 145.39-218.14 20.88-258.99-13.1-516.46-84.43-49.07-13.59-435.2-131.73-789.24 14.27C180.78 488.02 91.32 603.18 91.32 729.07M90.41 732.03l75.06-94.1M97.99 731.12 3.4 656.69" class="cls-1"/>
-                </g>
-              </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="1363" height="520" fill="none">
+                <path stroke="#000" stroke-linecap="round" stroke-width="16" d="M1355 8c0 112.803-71.69 226.629-178.82 248.478-28.55 5.822-134.59 49.678-144.34 2.701-7.59-36.574-3.46-83.573 40.64-89.128 35.7-4.497 76.88-14.061 110.99 4.201 40.7 21.79 65.59 46.031 65.59 95.73 0 125.42-162.28 116.136-242.16 116.136-100.347 0-184.314-30.803-276.352-70.222-44.859-19.212-91.719-35.577-139.857-43.213-55.167-8.751-110.11-32.41-166.483-32.41-80.875 0-181.767-17.134-252.247 35.111-17.572 13.025-38.184 20.737-49.048 40.512-11.784 21.449-19.974 42.772-30.27 64.821-15.48 33.149-19.75 69.301-35.315 102.632-8.408 18.005-6.965 37.808 6.166 13.204 6.716-12.584 27.677-20.706 37.837-29.409 18.288-15.665 29.166-16.215 2.523-1.201-15.16 8.544-39.335 26.838-50.45 41.713C34.09 533.506 13.658 436.046 8 423.93"/>
+            </svg>
         </div>
+
+        <div class="running">
+              <ul>
+                <li>
+                  <a href="#">SUSTAIN THE BLUE</a>
+                </li>
+                <li>
+                  <a href="#">SUSTAIN THE BLUE</a>
+                </li>
+                <li>
+                  <a href="#">SUSTAIN THE BLUE</a>
+                </li>
+                <li>
+                    <a href="#">SUSTAIN THE BLUE</a>
+                </li>
+              </ul>
+          </div>  
+
 
     </div>
 
@@ -80,6 +105,25 @@
 
     </footer>
 
+
+<!-- SCRIPT -->
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+<!-- Parallax -->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+
+<!-- BG Video -->
+<script src="./js/jquery.background-video.js"></script>
+
+<!-- GSAP -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+<script src="./js/gsap.js"></script>
+
+<!-- Main -->
+<script src="./js/main.js"></script>
 
 
 </body>
