@@ -1,0 +1,37 @@
+
+
+h1 {
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #8BCDDC;
+    font-size: 5.5vmin;
+    font-weight: 600;
+}
+
+p {
+    font-family: Helvetica;
+    font-size: 1.5vmin;
+    font-style: italic;
+}
+
+h3 {
+    font-size: 2.5vmin;
+    font-family: Helvetica;
+}
+
+a {
+    font-size: 1.5vmin;
+    color: black;
+    font-family: Helvetica;
+    font-weight: light;
+    transition: all .2s;
+}
+
+a:hover{
+    color: #8BCDDC;
+}
+
+a::after {
+    color: #8BCDDC;
+}
