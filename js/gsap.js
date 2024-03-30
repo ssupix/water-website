@@ -7,7 +7,7 @@ gsap.to("path", {
     scrollTrigger: {
         trigger: ".arrow-container",
         start: "top 70%", 
-        end: "top 10%", 
+        end: "top 2%", 
         scrub: true,
     },
     strokeDashoffset: 0, 
