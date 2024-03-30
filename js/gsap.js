@@ -6,8 +6,8 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.to("path", {
     scrollTrigger: {
         trigger: ".arrow-container",
-        start: "top 50%", 
-        end: "top 5%", 
+        start: "top 70%", 
+        end: "top 10%", 
         scrub: true,
     },
     strokeDashoffset: 0, 
