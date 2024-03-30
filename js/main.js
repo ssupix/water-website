@@ -1,12 +1,6 @@
 
 $(function(){
 
-    $(".my-background-video").bgVideo({
-        pauseAfter: 0,
-        fadeIn: 0,
-        showPausePlay: false
-    });
-
     $(".sea-shore-parallax").parallax({
 
         imageSrc: "assets/imgs/sea.jpg"
@@ -20,6 +14,13 @@ $(function(){
     });
 
     $(window).trigger('resize').trigger('scroll');
+
+    $(".my-background-video").bgVideo({
+        pauseAfter: 0,
+        fadeIn: 0,
+        showPausePlay: false
+    });
+
 
 });
 

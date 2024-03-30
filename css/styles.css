@@ -139,4 +139,11 @@ body {
         text-decoration: none;
     }
 
-    
+    /* WATERS PAGE */
+
+    .hero-waters {
+        background-image: url(../assets/imgs/sea.jpg);
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+    }
