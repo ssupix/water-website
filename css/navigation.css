@@ -6,8 +6,9 @@ html {
 
 nav {
     display: flex;
+    align-items: flex-end;
+    justify-content: end;
     width: 100%;
-    justify-content: flex-end;
     position: fixed;
     top: 0;
     z-index: 999;
@@ -15,13 +16,14 @@ nav {
 
     nav ul {
         list-style: none;
-        width: 80%;
+        width: 50%;
         padding: 20px;
+        display: flex;
+        justify-content: space-between;
     }
 
     nav ul li {
         display: inline;
-        margin-left: 25%;
     }
 
     nav ul li a {
@@ -29,6 +31,7 @@ nav {
         font-style: italic;
         text-decoration: none;
         font-weight: light;
+
     }
 
 
