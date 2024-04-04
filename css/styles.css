@@ -157,7 +157,8 @@ body {
 
     #waters-page {
         display: flex;
-        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         width: 100%;
     }
 
@@ -184,3 +185,37 @@ body {
         color: rgb(255, 255, 255);
     }
 
+
+    .lake-section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .lake-content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .lake-image {
+        width: 50%;
+    }
+
+    .lake-image img {
+        width: 100%;
+        height: 100%;
+        background-color: #1D2071;
+    }
+
+    .lake-text {
+        height: 50%;
+    }
+
+    .map {
+        background-color: #1D2071;
+        width: 100%;
+        height: 50%;
+    }
