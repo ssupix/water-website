@@ -45,39 +45,6 @@ body {
         background-position: bottom;
     }
 
-    .side-bar{
-        height: 100%;
-        width: 15%;
-        padding: 10px 40px;
-        position: absolute;
-        top: 0;
-    }
-
-        .side-bar h3 {
-            margin-top: 50px;
-        }
-
-        .side-bar ul {
-            list-style: none;
-            color: black;
-        }
-
-        .side-bar .simulator-link {
-            display: flex;
-            margin-top: 100px;
-        }
-
-            .side-bar .simulator-link img {
-                width: 35px;
-                height: auto;
-            }
-
-            .side-bar .simulator-link a {
-                font-size: 2.5vmin;
-                margin-right: 10px;
-                font-style: italic;
-            }
-
     .sea-shore-parallax {
         height: 100vh;
         width: 100%;

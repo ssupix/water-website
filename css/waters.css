@@ -9,26 +9,6 @@ body {
 
  /* WATERS PAGE */
 
- .side-bar{
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 20%;
-    padding: 10px 40px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-}
-
-    .side-bar h3 {
-        margin-top: 50px;
-    }
-
-    .side-bar ul {
-        list-style: none;
-    }
-
  #waters-page {
     display: flex;
     align-items: center;
@@ -60,6 +40,16 @@ body {
 
 .hero-waters .side-bar a {
     color: rgb(255, 255, 255);
+}
+
+.hero-waters .side-bar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-waters h2 {
+    margin: 0;
+    padding: 0;
 }
 
 
