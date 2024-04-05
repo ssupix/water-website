@@ -1,7 +1,5 @@
 * {
-    /* box-sizing: border-box; */
-    margin: 0;
-    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +10,8 @@ body {
  /* WATERS PAGE */
 
  .side-bar{
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 20%;
     padding: 10px 40px;
@@ -41,6 +41,9 @@ body {
 }
 
 .hero-waters {
+    box-sizing: none;
+    margin: 0;
+    padding: 0;
     /* background-image: url(../assets/imgs/sea.jpg); */
     background-size: cover;
     background-color: #5255a2;
@@ -84,10 +87,6 @@ body {
     background-color: #1D2071;
 }
 
-.lake-text {
-    height: 50vh;
-}
-
 .map {
     background-color: #1D2071;
     width: 100%;
@@ -102,11 +101,14 @@ body {
     place-items: center;
 }
 
+.river-wrap {
+    box-sizing: border-box;
+}
+
 #river {
     display: flex;
     width: 100%;
     overflow-x: hidden;
-    box-sizing: border-box;
 }
 
 #river .content:nth-child(1) {
