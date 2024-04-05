@@ -1,5 +1,7 @@
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -8,6 +10,24 @@ body {
 }
 
  /* WATERS PAGE */
+
+ .side-bar{
+    height: 100%;
+    width: 20%;
+    padding: 10px 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+}
+
+    .side-bar h3 {
+        margin-top: 50px;
+    }
+
+    .side-bar ul {
+        list-style: none;
+    }
 
  #waters-page {
     display: flex;
@@ -65,7 +85,7 @@ body {
 }
 
 .lake-text {
-    height: 50%;
+    height: 50vh;
 }
 
 .map {
@@ -86,6 +106,7 @@ body {
     display: flex;
     width: 100%;
     overflow-x: hidden;
+    box-sizing: border-box;
 }
 
 #river .content:nth-child(1) {
