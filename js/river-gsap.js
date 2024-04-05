@@ -1,12 +1,14 @@
-gsap.registerPlugin(ScrollTrigger);
+document.addEventListener("DOMContentLoaded", function() {
+    gsap.registerPlugin(ScrollTrigger);
 
-const contents = gsap.utils.toArray("#river .content");
+    const contents = gsap.utils.toArray("#river .content");
 
-gsap.to(contents, {
-    xPercent: -100 * (contents.length -1),
-    scrollTrigger: {
-        trigger: "#river",
-        pin: true,
-        scrub: 1
-    }
-})
+    gsap.to(contents, {
+        xPercent: -100 * (contents.length - 1),
+        scrollTrigger: {
+            trigger: "#river",
+            pin: true,
+            scrub: 1 
+        }
+    });
+});
