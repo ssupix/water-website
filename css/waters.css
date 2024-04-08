@@ -5,7 +5,7 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
  /* WATERS PAGE */
@@ -25,11 +25,18 @@ body {
     box-sizing: none;
     margin: 0;
     padding: 0;
-    /* background-image: url(../assets/imgs/sea.jpg); */
+    display: flex;
+    background-image: url(../assets/imgs/sea.jpg);
     background-size: cover;
     background-color: #5255a2;
     height: 100vh;
     width: 100%;
+}
+
+.hero-waters h2 {
+    width: 100%;
+    margin-right: 100px;
+    margin-bottom: 200px;
 }
 
 .hero-waters .side-bar {
@@ -45,7 +52,7 @@ body {
 
 .hero-waters .side-bar ul {
     margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
 .hero-waters h2 {
@@ -94,28 +101,34 @@ body {
 
 #river {
     display: flex;
-    width: 100%;
+    width: 100vw;
     overflow-x: hidden;
+    background-image: url(../assets/imgs/river-bg.png);
 }
 
 #river .content:nth-child(1) {
-    background: #1D2071;
+    background: #ffffff;
 }
-
+/* 
 #river .content:nth-child(2) {
     background: #373bad;
 }
 
 #river .content:nth-child(3) {
     background: #585cc2;
-}
+} */
 
 #river .content:nth-child(4) {
     background: #9496de;
 }
 
 #sea {
-    display: block;
-    height: 1800;
+    height: 2800px;
+    background-image: url(../assets/imgs/sea-bg.png);
+    background-size: cover;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100vh;
 }
+
