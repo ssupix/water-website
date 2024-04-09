@@ -37,9 +37,6 @@ a {
 }
 
 a:hover{
-    color: #8BCDDC;
+    color: #21a4c1;
 }
 
-a::after {
-    color: #8BCDDC;
-}
