@@ -21,8 +21,7 @@ $(function(){
     });
 
     // ScrollReveal initialization
-    ScrollReveal().reveal('.fish', {
-         delay: 300, 
-         easing: 'ease-in-out' });
+    ScrollReveal().reveal('.fish');
+    
 });
 
