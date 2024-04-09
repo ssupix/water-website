@@ -11,6 +11,6 @@ sections.forEach((section) => {
       targets: ".nav-link",
       className: "text-white"
     },
-    markers: true
+    // markers: true
   });
 });
