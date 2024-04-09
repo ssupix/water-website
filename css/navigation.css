@@ -6,6 +6,24 @@ html {
     scroll-behavior: smooth;
 }
 
+.scroll-cursor {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #565656;
+    background: rgba(217, 217, 217, 0.28);
+    backdrop-filter: blur(1px);
+    filter: invert(1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+}
+
 nav {
     display: flex;
     align-items: flex-end;
@@ -18,30 +36,30 @@ nav {
 
 
 
-    nav ul {
-        list-style: none;
-        width: 50%;
-        padding: 20px;
-        margin: 0;
-        display: flex;
-        justify-content: space-between;
+nav ul {
+    list-style: none;
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    font-size: 2.5vmin;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: light;
+
+}
+
+.text-white {
+    color: #ffffff !important;
     }
-
-    nav ul li {
-        display: inline;
-    }
-
-    nav ul li a {
-        font-size: 2.5vmin;
-        font-style: italic;
-        text-decoration: none;
-        font-weight: light;
-
-    }
-
-    .text-white {
-        color: #ffffff !important;
-      }
 
 
 
@@ -59,27 +77,27 @@ footer {
     top: 0;
 }
 
-    .side-bar h3 {
-        margin-top: 50px;
-    }
+.side-bar h3 {
+    margin-top: 50px;
+}
 
-    .side-bar ul {
-        list-style: none;
-        color: black;
-    }
+.side-bar ul {
+    list-style: none;
+    color: black;
+}
 
-    .side-bar .simulator-link {
-        display: flex;
-        margin-top: 100px;
-    }
+.side-bar .simulator-link {
+    display: flex;
+    margin-top: 100px;
+}
 
-        .side-bar .simulator-link img {
-            width: 35px;
-            height: auto;
-        }
+.side-bar .simulator-link img {
+    width: 35px;
+    height: auto;
+}
 
-        .side-bar .simulator-link a {
-            font-size: 2.5vmin;
-            margin-right: 10px;
-            font-style: italic;
-        }
+.side-bar .simulator-link a {
+    font-size: 2.5vmin;
+    margin-right: 10px;
+    font-style: italic;
+}
