@@ -54,6 +54,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 90%;
+    user-select: none;
 }
 
 
@@ -253,6 +254,9 @@ body {
     height: 30vmin;
     position: absolute;
     cursor: pointer;
+    z-index: -1;
+    /* mix-blend-mode: color-burn; */
+    /* this looks cool */
 }
 
 .drag-item img {
