@@ -26,6 +26,9 @@ body {
 .element-with-video-bg {
     height: 100%;
     width: 100%;
+    position: absolute !important;
+    top: 0;
+    z-index: -1;
 }
 
 .my-background-video {
@@ -33,16 +36,36 @@ body {
     width: 100%;
 }
 
-.element-with-video-bg video {
-    z-index: -1;
-}
 
 .hero-overlay {
     width: 100%;
     height: 100%;
-    background-image: url(../assets/imgs/overlay.svg);
+    /* background-image: url(../assets/imgs/overlay.svg); */
     background-size: cover;
     background-position: bottom;
+}
+
+.text {
+    left: 50%;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    font-size: 35vmin;
+    margin: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%;
+    text-align: center; 
+    mix-blend-mode: screen; 
+}
+
+.water-video {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 .sea-shore-parallax {
@@ -51,13 +74,24 @@ body {
 }
 
 .about {
-    height: 100vh;
+    min-height: 100vh;
+    padding-top: 50px;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10%;
     position: relative;
+}
+
+.about-info {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
 }
 
 .about .about-img {
@@ -82,23 +116,25 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
-    top: 270vh;
+    padding: 50px;
 }
 
 path {
     width: 100%;
+    height: auto;
     stroke-dasharray: 2700;
     stroke-dashoffset: 2700;
     animation: draw 3s infinite alternate ease-in-out;
     stroke: #1D2071;
+    scale: 1;
+    margin-bottom: 200px;
 }
 
     
 .running {
     width: 100%;
-    margin-top: 230px;
     overflow-x: hidden;
+    margin-top: 150px;
 }
 
 .running ul {
@@ -116,8 +152,42 @@ path {
 .running ul li a {
     color: #000000;
     font-weight: 600;
-    font-size: 120px;
+    font-size: 10vmin;
     text-decoration: none;
 }
 
-   
+@media all and (max-width: 1900px) {
+    .text {
+        font-size: 30vmin;
+    }
+ }
+
+@media all and (max-width: 1650px) {
+    .text {
+        font-size: 20vmin;
+    }
+ }
+
+@media all and (max-width: 1000px) {
+    .about-info {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .about-img {
+        height: 30%;
+        width: 70% !important;
+    }
+    
+    
+    .about p {
+        width: 70%;
+    }
+
+    .running {
+        margin-top: 0;
+    }
+ }
+

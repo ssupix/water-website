@@ -136,7 +136,6 @@ body {
 
 #river .content:nth-child(3) {
     text-align: right;
-
 }
 
 #river .content:nth-child(4) {
@@ -180,8 +179,10 @@ body {
 .fish {
     display: flex;
     align-items: center;
-    width: 600px;
+    width: 60vmin;
+    max-width: 700px;
     color: #ffffff;
+    padding: 20px;
 }
 
 .fish-pic {
@@ -214,18 +215,21 @@ body {
 }
 .fish:nth-child(2) {
     margin-left: 50%;
+    flex-direction: row-reverse;
 }
 .fish:nth-child(3) {
     margin-right: 50%;
 }
 .fish:nth-child(4) {
     margin-left: 50%;
+    flex-direction: row-reverse;
 }
 .fish:nth-child(5) {
     margin-right: 50%;
 }
 .fish:nth-child(6) {
     margin-left: 50%;
+    flex-direction: row-reverse;
 }
 
 #ocean {
@@ -241,12 +245,18 @@ body {
 
 #ocean h3 {
     font-size: 6vmin;
+    width: 40%;
     margin: 0;
+    user-select: none;
+    z-index: 10;
+    text-align: center;
 }
 
 #ocean p {
     width: 40%;
     text-align: center;
+    user-select: none;
+    z-index: 10;
 }
 
 .drag-item {
@@ -254,7 +264,7 @@ body {
     height: 30vmin;
     position: absolute;
     cursor: pointer;
-    z-index: -1;
+    z-index: 1;
     /* mix-blend-mode: color-burn; */
     /* this looks cool */
 }
@@ -264,5 +274,114 @@ body {
     height: auto;
 }
 
+
+@media all and (max-width: 1000px) {
+    .lake-section {
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    
+    .lake-content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    .lake-image {
+        height: 50%;
+        width: 100%;
+    }
+ }
+
+ @media all and (max-width: 750px) {
+    #river .content p {
+        width: 80%;
+    }
+
+    #sea .heading {
+        width: 70%;
+    }
+
+    .fish:nth-child(1) {
+        margin-right: 20%;
+    }
+    .fish:nth-child(2) {
+        margin-left: 20%;
+        flex-direction: row-reverse;
+    }
+    .fish:nth-child(3) {
+        margin-right: 20%;
+    }
+    .fish:nth-child(4) {
+        margin-left: 20%;
+        flex-direction: row-reverse;
+    }
+    .fish:nth-child(5) {
+        margin-right: 20%;
+    }
+    .fish:nth-child(6) {
+        margin-left: 20%;
+        flex-direction: row-reverse;
+    }
+
+    #ocean h3 {
+        width: 70%;
+        text-align: center;
+    }
+    
+    #ocean p {
+        width: 70%;
+    }
+
+ }
+
+ @media all and (max-width: 500px) {
+    #river .content p {
+        width: 90%;
+        height: 40%;
+    }
+    
+    #sea .heading {
+        width: 90%;
+    }
+
+    .fish:nth-child(1) {
+        margin-right: 0;
+    }
+    .fish:nth-child(2) {
+        margin-left: 0;
+        flex-direction: row-reverse;
+    }
+    .fish:nth-child(3) {
+        margin-right: 0;
+    }
+    .fish:nth-child(4) {
+        margin-left: 0;
+        flex-direction: row-reverse;
+    }
+    .fish:nth-child(5) {
+        margin-right: 0;
+    }
+    .fish:nth-child(6) {
+        margin-left: 0;
+        flex-direction: row-reverse;
+    }
+
+    #ocean h3 {
+        width: 90%;
+        text-align: center;
+    }
+    
+    #ocean p {
+        width: 90%;
+    }
+
+ }
 
 

@@ -58,7 +58,6 @@ nav ul li a {
     font-style: italic;
     text-decoration: none;
     font-weight: light;
-
 }
 
 .text-white {
@@ -76,7 +75,7 @@ nav ul li a {
 }
 
 .side-bar h3 {
-    margin-top: 50px;
+    margin-top: 20%;
 }
 
 .side-bar ul {
@@ -90,13 +89,13 @@ nav ul li a {
 }
 
 .side-bar .simulator-link img {
-    width: 35px;
+    width: 3vmin;
+    margin-left: 15px;
     height: auto;
 }
 
 .side-bar .simulator-link a {
     font-size: 2.5vmin;
-    margin-right: 10px;
     font-style: italic;
 }
 
@@ -126,7 +125,8 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50%;
+    justify-content: center;
+    height: 70%;
     max-height: 650px;
     padding: 50px;
     border-radius: 60px;
@@ -139,19 +139,20 @@ form input[type="text"],
 form input[type="email"],
 form textarea {
     width: calc(100% - 20px);
-    padding: 30px;
+    padding: 20px;
     margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
 form textarea {
-    height: 200px;
+    height: 20vmin;
 }
 
 form input[type="submit"] {
     width: 40%;
     padding: 20px;
+    text-align: center;
     text-transform: uppercase;
     font-size: 1.5vmin ;
     font-weight: 600;
@@ -166,6 +167,63 @@ form input[type="submit"] {
 
 form input[type="submit"]:hover {
     background-color: #93a1dd;
+}
+
+
+@media all and (max-width: 1500px) {
+     .side-bar{
+        height: 90%;
+        width: 25%;
+    }  
+}
+
+@media all and (max-width: 1000px) {
+    .side-bar{
+       height: 90%;
+       width: 40%;
+   }  
+}
+
+@media all and (max-width: 750px) {
+    nav ul  {
+        flex-direction: column;
+        text-align: right;
+        gap: 30px;
+    }
+
+    nav ul li a {
+        font-size: 2.9vmin;
+    }
+
+    .side-bar{
+        height: 90%;
+        width: 60%;
+    }
+
+    footer {
+        height: 70vh;
+    }
+
+    form input[type="submit"] {
+        width: 50%;
+        font-size: 1.9vmin;
+    }
+}
+
+@media all and (max-width: 500px) {
+
+    nav ul li a {
+        font-size: 3.9vmin;
+    }
+
+    footer {
+        height: 50vh;
+    }
+
+    form input[type="submit"] {
+        width: 70%;
+        font-size: 2.8vmin;
+    }
 }
 
 

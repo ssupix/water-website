@@ -44,3 +44,54 @@ a:hover{
     color: #21a4c1;
 }
 
+@media all and (max-width: 1650px) {
+    h2 {
+        font-size: 20vmin;
+    }
+ }
+
+
+@media all and (max-width: 1000px) {
+   a {
+        font-size: 1.9vmin;
+   }
+
+   p {
+        font-size: 1.9vmin;
+   }
+
+   h3 {
+        font-size: 2.8vmin;
+    }
+}
+
+@media all and (max-width: 750px) {
+    a {
+        font-size: 2.2vmin;
+   }
+
+   p {
+        font-size: 2.2vmin;
+   }
+
+   h3 {
+    font-size: 3.2vmin;
+}
+}
+
+@media all and (max-width: 500px) {
+    a {
+        font-size: 2.9vmin;
+    }
+
+    p {
+        font-size: 2.9vmin;
+    }
+
+    h3 {
+        font-size: 3.8vmin;
+    }
+}
+
+
+
