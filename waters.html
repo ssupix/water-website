@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="./css/navigation.css">
 
     <!-- Scroll Reveal -->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <script src="./js/scrollreveal.min.js"></script>
-    <script src="./js/main.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 
 
@@ -82,7 +80,7 @@
             </div>
 
             <div class="fish-tank">
-                <div class="fish">
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="fish-pic">
                         <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
                     </div>
@@ -95,7 +93,7 @@
                         <p>Hipster ipsum tattooed brunch I'm baby. Microdosing synth pickled charcoal bodega palo single-origin. Axe diy.</p>
                     </div>
                 </div>
-                <div class="fish">
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="fish-pic">
                         <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
                     </div>
@@ -108,7 +106,7 @@
                         <p>Hipster ipsum tattooed brunch I'm baby. Microdosing synth pickled charcoal bodega palo single-origin. Axe diy.</p>
                     </div>
                 </div>
-                <div class="fish">
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="fish-pic">
                         <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
                     </div>
@@ -121,7 +119,7 @@
                         <p>Hipster ipsum tattooed brunch I'm baby. Microdosing synth pickled charcoal bodega palo single-origin. Axe diy.</p>
                     </div>
                 </div>
-                <div class="fish">
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="fish-pic">
                         <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
                     </div>
@@ -134,7 +132,20 @@
                         <p>Hipster ipsum tattooed brunch I'm baby. Microdosing synth pickled charcoal bodega palo single-origin. Axe diy.</p>
                     </div>
                 </div>
-                <div class="fish">
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+                    <div class="fish-pic">
+                        <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
+                    </div>
+                    <div class="fish-info">
+                        <h3>LEAFY DRAGON</h3>
+                        <div class="fish-depth">
+                            <h4>Depth:</h4>
+                            <p class="depth">30m</p>
+                        </div>
+                        <p>Hipster ipsum tattooed brunch I'm baby. Microdosing synth pickled charcoal bodega palo single-origin. Axe diy.</p>
+                    </div>
+                </div>
+                <div class="fish" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
                     <div class="fish-pic">
                         <img src="./assets/imgs/leafy-dragon.png" alt="leafy-dragon">
                     </div>
@@ -153,27 +164,31 @@
 
     <footer class="section-dark">
 
-        <form action="#" method="POST">
+        <form action="#" method="POST" id="contactForm">
             <input type="text" name="name" placeholder="Your Name" required>
             <input type="email" name="email" placeholder="Your Email" required>
             <textarea name="message" placeholder="Your Message" required></textarea>
-            <input type="submit" value="Send Message">
+            <input type="submit" value="Send Message" >
         </form>
 
         <h1>theBLUE</h1>
 
     </footer>
 
+
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize Scroll Reveal -->
     <script>
-        ScrollReveal().fish('.item', {
-        delay: 375,
-        duration: 500,
-        reset: true
-    });
+        AOS.init();
     </script>
 
     <!-- Jquery -->
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+     <!-- Scroll Reveal -->
+     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Parallax -->
     <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>

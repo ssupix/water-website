@@ -18,8 +18,10 @@ body {
     width: 100%;
 }
 
-#waters-page ul li a{
-    color: white;
+#waters-page nav ul li a{
+    color: white !important;
+    mix-blend-mode: difference;
+    z-index: 0;
 }
 
 .hero-waters {
@@ -108,6 +110,7 @@ body {
     display: flex;
     width: 100vw;
     overflow-x: hidden;
+    background-size: cover;
     background-image: url(../assets/imgs/river-bg.png);
 }
 
@@ -164,7 +167,7 @@ body {
     color: #ffffff;
     text-align: center;
     margin-top: 300px;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
 #sea .heading h3 {
@@ -212,19 +215,22 @@ body {
 }
 
 .fish:nth-child(1) {
-    margin-right: 650px;
+    margin-right: 50%;
 }
 .fish:nth-child(2) {
-    margin-left: 650px;
+    margin-left: 50%;
 }
 .fish:nth-child(3) {
-    margin-right: 650px;
+    margin-right: 50%;
 }
 .fish:nth-child(4) {
-    margin-left: 650px;
+    margin-left: 50%;
 }
 .fish:nth-child(5) {
-    margin-right: 650px;
+    margin-right: 50%;
+}
+.fish:nth-child(6) {
+    margin-left: 50%;
 }
 
 

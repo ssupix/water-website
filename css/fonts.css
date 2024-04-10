@@ -2,7 +2,6 @@
 
 h1 {
     font-family: "Archivo Black", sans-serif;
-    font-weight: 400;
     font-style: normal;
     color: #8BCDDC;
     font-size: 5.5vmin;
@@ -25,6 +24,11 @@ h2 {
 
 h3 {
     font-size: 2.5vmin;
+    font-family: Helvetica;
+}
+
+h4 {
+    font-size: 1.8vmin;
     font-family: Helvetica;
 }
 

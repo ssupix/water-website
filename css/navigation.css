@@ -13,6 +13,7 @@ html {
     border: 2px solid #565656;
     background: rgba(217, 217, 217, 0.28);
     backdrop-filter: blur(2px);
+    filter: invert(1);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,14 +159,14 @@ form input[type="submit"] {
     background-color: #8fa2eb;
     color: #fff;
     border: none;
-    margin-top: 30px;
+    margin-top: 40px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 form input[type="submit"]:hover {
-    background-color: #3333d0;
+    background-color: #5266b6;
 }
 
 
