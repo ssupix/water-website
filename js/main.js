@@ -19,13 +19,6 @@ $(function(){
         fadeIn: 0,
         showPausePlay: false
     });
-
-    // ScrollReveal initialization
-    ScrollReveal().fish('.item', {
-        delay: 375,
-        duration: 500,
-        reset: true
-    });
     
 });
 
