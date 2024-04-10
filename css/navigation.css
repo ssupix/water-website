@@ -22,7 +22,7 @@ html {
     left: 0;
     pointer-events: none;
     margin: 70px 0 0 0;
-    z-index: 500;
+    z-index: 10;
 }
 
 .scroll-cursor p {

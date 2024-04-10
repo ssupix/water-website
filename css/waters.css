@@ -18,12 +18,6 @@ body {
     width: 100%;
 }
 
-#waters-page nav ul li a{
-    color: white !important;
-    mix-blend-mode: difference;
-    z-index: 0;
-}
-
 .hero-waters {
     box-sizing: none;
     display: flex;
@@ -149,7 +143,7 @@ body {
 }
 
 #sea {
-    height: 2500px;
+    padding: 100px;
     background-image: url(../assets/imgs/sea-bg.png);
     background-size: cover;
     width: 100%;
@@ -232,5 +226,39 @@ body {
 .fish:nth-child(6) {
     margin-left: 50%;
 }
+
+#ocean {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 600;
+    background-color: #E7EBEE;
+}
+
+#ocean h3 {
+    font-size: 6vmin;
+    margin: 0;
+}
+
+#ocean p {
+    width: 40%;
+    text-align: center;
+}
+
+.drag-item {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.drag-item img {
+    width: 100%;
+    height: auto;
+}
+
 
 
