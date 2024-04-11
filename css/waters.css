@@ -265,7 +265,7 @@ body {
     position: absolute;
     cursor: pointer;
     z-index: 1;
-    /* mix-blend-mode: color-burn; */
+    /* mix-blend-mode:hard-light; */
     /* this looks cool */
 }
 
