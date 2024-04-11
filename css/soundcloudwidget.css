@@ -1,5 +1,12 @@
+/* SOUND CLOUD WIDGET CSS */
+
+iframe {
+    position: absolute;
+}
+
 @media all and (max-width: 750px) {
     iframe {
         width: 70%;
     }
  }
+

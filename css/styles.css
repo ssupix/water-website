@@ -17,6 +17,8 @@ body {
     flex-direction: column;
 }
 
+/* HERO ELEMENTS */
+
 .hero-container{
     height: 100vh;
     width: 100%;
@@ -59,10 +61,14 @@ body {
     right: 0;
 }
 
+/* PARALLAX */
+
 .sea-shore-parallax {
     height: 100vh;
     width: 100%;
 }
+
+/* ABOUT ELEMENTS */
 
 .about {
     min-height: 100vh;
@@ -146,6 +152,9 @@ path {
     font-size: 10vmin;
     text-decoration: none;
 }
+
+
+/* MEDIA QUERIES */
 
 @media all and (max-width: 1900px) {
     .text {

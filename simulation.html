@@ -4,13 +4,17 @@
 		<meta charset="utf-8">
 		<title>Waves</title>
 
-		<!-- SCRIPTS -->
+		<!-- minified three.js simulation js file-->
 		<script type="module" crossorigin src="./js/simulation.js"></script>
 
-		<!-- STYLES -->
+		<!-- minified simulation css file -->
 		<link rel="stylesheet" crossorigin href="./css/simulation.css">
+
+		<!-- STYLES -->
 		<link rel="stylesheet" href="./css/fonts.css">
 		<link rel="stylesheet" href="./css/navigation.css">
+
+		<!-- Sound Cloud widget css -->
 		<link rel="stylesheet" href="./css/soundcloudwidget.css">
 
 		<!-- FONTS -->
@@ -18,14 +22,9 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Prata&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 
-		<style>
-
-			iframe{position: absolute;}
-
-		</style>
-	
 	</head>
 	<body>
+
 		<nav>
 			<ul>
 				<li><a href="./index.html">HOME</a></li>
@@ -34,15 +33,13 @@
 			</ul>
 		</nav>
 
-
+		<!-- IFrame with imported API of my water playlist, inline slides included-->
 		<iframe width="40%" height="500" scrolling="no" frameborder="no" allow="autoplay"
   			src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/380031761/favorites&amp;color=8BCDDC&show_user=false&sharing=false&download=false&buying=false&show_playcount=false">
 		</iframe>
 
-		<div class="sea">
 
-		</div>
-
+		<!-- sound cloud widget js file -->
 		<script src="./js/soundcloud.js"></script>
 		
 	</body>

@@ -6,6 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 
+/* custom cursor widget */
+
 .scroll-cursor {
     height: 100px;
     width: 100px;
@@ -27,6 +29,8 @@ html {
 .scroll-cursor p {
     user-select: none;
 }
+
+/* NAV BAR */
 
 nav {
     display: flex;
@@ -64,7 +68,7 @@ nav ul li a {
     color: #ffffff !important;
     }
 
-
+/* SIDE BAR */
 
 .side-bar{
     height: 100%;
@@ -98,6 +102,8 @@ nav ul li a {
     font-size: 2.5vmin;
     font-style: italic;
 }
+
+/* FOOTER */
 
 footer {
     width: 100%;
@@ -170,6 +176,9 @@ form input[type="submit"]:hover {
 }
 
 
+/* MEDIA QUERIES */
+
+
 @media all and (max-width: 1500px) {
      .side-bar{
         height: 90%;
@@ -211,7 +220,6 @@ form input[type="submit"]:hover {
 }
 
 @media all and (max-width: 500px) {
-
     nav ul li a {
         font-size: 3.9vmin;
     }
