@@ -21,9 +21,7 @@ body {
 /* HERO ELEMENTS */
 
 .hero-waters {
-    box-sizing: none;
     display: flex;
-    /* background-image: url(../assets/imgs/sea.jpg); */
     background-size: cover;
     background-color: #8BCDDC;
     height: 100vh;

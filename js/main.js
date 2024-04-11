@@ -14,7 +14,7 @@ $(function(){
 
     // Parallax initialization
     $(".lake-image").parallax({
-        imageSrc: "assets/imgs/lake.png" // Setting the background image for parallax effect
+        imageSrc: "assets/imgs/lake.jpg" // Setting the background image for parallax effect
     });
 
     
