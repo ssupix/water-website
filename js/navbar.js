@@ -25,6 +25,6 @@ sections.forEach((section) => {
       className: "text-white" // add or remove the class "text-white"
     },
      // uncomment the line below to display markers for debugging
-    markers: true
+    // markers: true
   });
 });
