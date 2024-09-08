@@ -1,7 +1,6 @@
 // OCEAN ELEMENTS
 // DRAGGABLE FISH
 
-
 // runs code when all the content is loaded
 document.addEventListener("DOMContentLoaded", function() {
     // Function to add initial random positions to fish elements
@@ -29,4 +28,13 @@ gsap.registerPlugin(Draggable)
 Draggable.create(".drag-item", {
     // you can drag elements outside of #ocean div
     bounds: "#ocean"
-  });
+});
+
+
+
+
+
+
+
+
+

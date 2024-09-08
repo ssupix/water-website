@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
             // pin the trigger element during the animation
             pin: true,
             // set the scrubbing speed
-            scrub: 0.5 
+            scrub: 0.5
         }
     });
 });
